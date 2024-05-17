@@ -12,7 +12,7 @@
   box-sizing: border-box; }
 
 html {
-  font-family: sans-serif;
+  font-family: "Noto Sans JP", sans-serif !important;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -27,7 +27,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial";
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.6;
@@ -8732,7 +8732,7 @@ body {
   top: 69.75px; }
 
 .secondfont, .navbar-brand {
-  font-family: "Playfair Display", "Segoe UI", "Helvetica Neue", "Arial"; }
+  font-family: "Noto Sans JP", sans-serif; }
 
 img {
   max-width: 100%; }
@@ -9287,7 +9287,7 @@ ol.list-featured li:before {
     z-index: 1111; } }
 
 article {
-  font-family: "sans-serif", "Georgia";
+  /* font-family: "sans-serif", "Georgia"; */
   font-size: 20px;
   line-height: 1.7; }
   article p, article pre, article figure, article img, article blockquote, article iframed, article embed {
@@ -9306,12 +9306,13 @@ article {
     opacity: 1;
     float: left;
     line-height: 1; }
-  article:first-letter {
+  /* article:first-letter {
     float: left;
     font-size: 5em;
     line-height: 1;
     margin: 0 .2em 0 0;
-    vertical-align: top; }
+    vertical-align: top; */
+   /* } */
 
 .spanborder {
   border-bottom: 1px solid #e8f3ec;
